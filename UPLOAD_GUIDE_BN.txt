@@ -1,0 +1,30 @@
+SEO ফাইল আপলোড করার নিয়ম — Syed Sabbir Hossen
+
+আপনার ওয়েবসাইট:
+https://syedsabbirhossen.github.io/sabbir/
+
+এই ZIP ফাইলে আছে:
+1. robots.txt
+2. sitemap.xml
+
+GitHub-এ আপলোড করার নিয়ম:
+1. ZIP ফাইলটি ডাউনলোড করে Extract করুন।
+2. GitHub-এ syedsabbirhossen/sabbir repository খুলুন।
+3. repository-র একদম মূল ফোল্ডারে (root) Add file → Upload files চাপুন।
+4. robots.txt এবং sitemap.xml — এই দুইটি ফাইল আপলোড করুন। ফাইল দুটি কোনো সাবফোল্ডারে রাখবেন না।
+5. নিচে Commit changes চাপুন।
+6. কিছুক্ষণ পর ব্রাউজারে এই দুটি ঠিকানা খুলে দেখুন:
+   https://syedsabbirhossen.github.io/sabbir/robots.txt
+   https://syedsabbirhossen.github.io/sabbir/sitemap.xml
+
+Google Search Console-এ জমা দেওয়ার নিয়ম:
+1. https://search.google.com/search-console/ খুলুন।
+2. আপনার ওয়েবসাইটের property নির্বাচন করুন। আগে যোগ করা না থাকলে property যোগ করে ownership verify করুন।
+3. বাম পাশের Sitemaps-এ যান।
+4. sitemap URL ঘরে sitemap.xml লিখে Submit চাপুন।
+5. URL inspection-এ গিয়ে মূল URL https://syedsabbirhossen.github.io/sabbir/ লিখে Test live URL / Request indexing ব্যবহার করতে পারেন।
+
+গুরুত্বপূর্ণ:
+- sitemap.xml সরাসরি Google-এ ফাইল আপলোড করা হয় না। আগে GitHub Pages-এ ফাইলটি প্রকাশ করতে হবে, তারপর Search Console-এ তার URL জমা দিতে হবে।
+- Google-এ দেখাতে সময় লাগতে পারে; indexing বা প্রথম অবস্থানে আসার নিশ্চয়তা নেই।
+- আপনার সাইটটি এক-পৃষ্ঠার portfolio হিসেবে ধরে এই sitemap তৈরি করা হয়েছে। নতুন আলাদা HTML পেজ যোগ করলে sitemap-এ সেগুলিও যোগ করুন।
