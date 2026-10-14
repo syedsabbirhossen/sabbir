@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://syedsabbirhossen.github.io/sabbir/sitemap.xml
